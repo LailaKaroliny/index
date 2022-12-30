@@ -1,0 +1,60 @@
+header {
+    display: flex;
+}
+
+
+.nav button{
+    width: 100px;
+    height: 30px;
+    background-color: #628df9;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.categorias{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+
+
+#section-vendidos{
+    text-align: center;
+    font-family: sans-serif;
+}
+#section-vendidos{
+    font-weight: bold;
+    padding: 20px;
+}
+#section-vendidos img{
+    height: 300px;
+    border-radius: 10px;
+    width: 300px;
+}
+#section-vendidos .card{
+    display:block ;
+    margin: 5px;
+    border: 1px;
+    border-radius: 10px;
+    
+}
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#section-vendidos .preço{
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 17px;
+    padding-bottom: 7px;
+}
+
+
+footer{
+     text-align: center;
+}
+footer p{
+    font-weight: bold;
+    padding:10px;
+}
