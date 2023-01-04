@@ -1,8 +1,6 @@
 header {
     display: flex;
 }
-
-
 .nav button{
     width: 100px;
     height: 30px;
@@ -16,11 +14,10 @@ header {
     font-family: sans-serif;
     margin-top: 80px;
 }
-
-
 #section-vendidos{
     text-align: center;
     font-family: sans-serif;
+    margin-top: 80px;
 }
 #section-vendidos{
     font-weight: bold;
@@ -48,8 +45,12 @@ header {
     font-weight: bold;
     padding-top: 17px;
     padding-bottom: 7px;
-}
+} 
 
+#carouselExampleControls img {
+    width: 100%px;
+    height: 600px;
+}
 
 footer{
      text-align: center;
@@ -57,4 +58,5 @@ footer{
 footer p{
     font-weight: bold;
     padding:10px;
+    font-family: sans-serif ;
 }

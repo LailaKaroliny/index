@@ -9,98 +9,111 @@
         <link rel="stylesheet" href="reset.css">
     </head>
     <body>
+
+      <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" width="50px" height="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Console</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jogos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="O que deseja buscar?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
         <header>
-            <section id= "section-banners" class="container-fluid"></section>
-
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="Banner1.png" alt="Primeiro Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="banner0.PNG" alt="Segundo Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="banner2.PNG" alt="Terceiro Slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only"></span>
-                    </a>
+          <section id="section-banners" >
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Banner1.png" class="d-block w-100" alt="Venha comprar na nossa loja">
                 </div>
-
+                <div class="carousel-item">
+                  <img src="banner0.PNG" class="d-block w-100" alt="Promoções">
+                </div>
+                <div class="carousel-item">
+                  <img src="banner2.PNG" class="d-block w-100" alt="Novidades">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
             </header>
-
-
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Game Mania</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Console <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Jogos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.html"></a>
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </nav>
-    </header>
-        
+ 
 
         <main>
             <div class="categorias"> 
-                <button type="button" class="btn btn-primary"><h2>Os mais vendidos</h2></button>
+                <button type="button" class="btn btn-primary"><h1>Os mais vendidos</h1></button>
             </div>
-        </main>
-        <section id= "section-vendidos" class="container-fluid">
-            <div class="card group">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="jogo1.PNG" alt="Imagem de capa do card">
-                <div class="card-body">
-                            <h5 class="card-title">Jogo 1</h5>
-                            <p class="card-text">Jogo do ano</p>
-                            <p class="preço">R$ 190,00</p>
-                            <a href="http://127.0.0.1:5500/Login.html" class="btn btn-primary">Comprar</a>
-                </div>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="jogo2.PNG" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogo 2</h5>
-                        <p class="card-text">Jogos top de linha</p>
-                        <p class="preço">R$ 290,00</p>
-                        <a href="http://127.0.0.1:5500/Login.html" class="btn btn-primary">Comprar</a>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="jogo3.PNG" alt="Imagem de capa do card">
-                    <div class="card-body">
-                      <h5 class="card-title">Jogo 3</h5>
-                      <p class="card-text">Melhor de todos</p>
-                      <p class="preço">R$ 150,00</p>
-                      <a href="http://127.0.0.1:5500/Login.html" class="btn btn-primary">Comprar</a>
-                </div>
+          </main>
+
+        <section id="section-vendidos" class="container">
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+              <img src="jogo1.PNG" class="card-img-top" alt="Jogo de aventura">
+              <div class="card-body">
+                <h5 class="card-title">Jogo 1</h5>
+                <p class="card-text">Jogo do ano</p>
+                <p class="preço">R$ 190,00</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
             </div>
-        </section>
+            <div class="card" style="width: 18rem;">
+              <img src="jogo2.PNG" class="card-img-top" alt="Jogo de fps">
+              <div class="card-body">
+                <h5 class="card-title">Jogo 2</h5>
+                <p class="card-text">Jogo top de linha</p>
+                <p class="preço">R$ 290,00</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="jogo3.PNG" class="card-img-top" alt="Jogo de corrida">
+              <div class="card-body">
+                <h5 class="card-title">Jogo 3</h5>
+                <p class="card-text">Melhor de todos</p>
+                <p class="preço">R$ 150,00</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
           </div>
-    </body>
+        </section>
+
     <footer>
-        <p> Desenvolvimento por HL Games</p>
-        <br><br>
+        <p> Desenvolvimento por Laila Karoliny</p>
+        <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo </button>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  
+    </body>
 </html>
