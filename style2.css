@@ -1,0 +1,56 @@
+header button{
+    margin-top: 8px;
+    width: 100px;
+    height: 40px;
+    background-color: #51a1de;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+#form-cadastrar{
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-weight: bold;
+    padding:290px;
+    font-family: sans-serif ;
+}
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#bt-login{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #51a1de;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: none;
+}
+#form-cadastrar h1{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+#form-cadastrar p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    position: inherit;
+    align-items: center;
+}
+.d-flexjustfy-content-center{
+    display: flex;
+    justify-content: center;
+}

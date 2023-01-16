@@ -4,7 +4,7 @@ header {
 .nav button{
     width: 100px;
     height: 30px;
-    background-color: #628df9;
+    background-color: #51a1de;
     border-radius: 10px;
     font-family: sans-serif;
 }
@@ -59,4 +59,41 @@ footer p{
     font-weight: bold;
     padding:10px;
     font-family: sans-serif ;
+}
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+#section-login{
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+#section-login h1{
+    text-align: center;
+}
+#section-login input{
+    width: 100%;
+}
+#bt-login{
+    margin-top: 15px;
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
+.bnt-info{
+    margin-top: 40px;
+    margin-left: 615px;
+    border-radius: 7px;
+    width: 300px;
+    height: 40px;
+    font-family: sans-serif;
+    border: none;
+    background-color: #51a1de;
+}
+.mb-3{
+    margin-top: 10px;
+    margin-left: 600px;
 }

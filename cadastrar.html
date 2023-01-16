@@ -5,12 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
         <link rel="stylesheet" href="reset.css">
     </head>
     <body>
-
-
         <header>
             <nav class="navbar navbar-expand-lg bg-light">
               <div class="container-fluid">
@@ -41,36 +39,36 @@
               </div>
             </nav>
           </header>
-
-          <main>
-            <section id="section-login">
-              <h1>Login</h1>
-              <div class="d-flex justify-content-center">
-                <form method="post" action="" id="login">
-                  <p>
-                    <label for="usuário"> Nome: </label>
-                    <input id="usuario" name="usuario" required="required" type="text"
-                      placeholder="Insira o seu usuário" class="form-control"/>
-                  </p>
-                  <p>
-                    <label for="senha"> Senha:</label> 
-                    <input id="senha" name="senha" required="required" type="text"
-                      placeholder="Insira a sua senha" class="form-control" />
-                  </p>
-                    <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()"/>
-                </form>
-              </div>
-            </section>
-
-            <section id="section-casdastro">
-              <div id="botao-cadastrar">
-                <a href="cadastrar.html"> <button type="button" class="bnt bnt-info" > Não é cadastrado ainda? Cadastre-se </button></a>
-               </div>
-              </div>
-            </section>
-          </main>
-
-
+                        <div id="form-cadastrar">
+                            <h1>Criar minha conta</h1>
+                            <p>Informe os seus dados abaixo para criar sua conta.</p>
+            
+                            <div class="d-flexjustfy-content-center mb-5">
+                                <form method="post" action="" id="login">
+                                
+                                <p>
+                                    <label for="usuario"> Usuário: </label>
+                                    <input id="usuario" name="usuario" required="required" type="text"
+                                    placeholder="ex. nome de usuário" class="form-control" />
+                                </p>
+                                <p>
+                                    <label for="email"> E-mail: </label>
+            
+                                    <input id="email" name="email" required="required" type="email"
+                                    placeholder="seu@email.com.br" class="form-control" />
+                                </p>
+                                <p>
+                                    <label for="senha">Senha: </label>
+                                    <input type="senha" name="senha" required="required" type="password"
+                                    placeholder="mínimo de 6 caracteres" class="form-control" />
+                                </p>
+                                <p> <a href="index.html">
+                                    <input type="button" value="Cadastrar" class="bnt bnt-primary" id="bt-login"
+                                    onclick="cadastro()"/>
+                                </a> </p>
+                                </form>
+                        </div>
+                    </div>
         <footer>
             <p> Desenvolvimento por Laila Karoliny</p>
         </footer>

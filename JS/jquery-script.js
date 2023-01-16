@@ -1,1 +1,0 @@
-//efeito de esconder o formulário de cadastro
